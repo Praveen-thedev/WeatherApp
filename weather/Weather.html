@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Weather Information </title>
+	<link rel="stylesheet" type="text/css" href="views/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background-color: #9ED5F4">
+<div class="jumbotron" style="margin-bottom:0px; color: white;background-color:#4aa1f3">
+	<h2 class="text-center" style="font-size: 50px; font-weight: 600;">Get Current Weather</h2>
+</div>
+<div class="container" style="height: 650px";>
+	<div class="row" style="margin-bottom: 20px;">
+		<h3 class="text-center text-primary">Enter City Name</h3>
+		<span id="error"></span>
+	</div>
+	<div class="row form-group form-inline" id="rowDiv">
+		<input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+		<button id="submitWeather" class="btn btn-primary">Serch City</button>
+	</div>
+	<div id="show"></div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row text-center" style="padding: 30px;">
+			<p style="color: white; font-size:20px; font-weight:bold;">Copyright &copy; Teotia Weather App</p>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="views/jquery.min.js" ></script>
+<script type="text/javascript" src="views/bootstrap.min.js" ></script>
+<script type="text/javascript" src="views/weathe.js"></script>
+</body>
+</html>
